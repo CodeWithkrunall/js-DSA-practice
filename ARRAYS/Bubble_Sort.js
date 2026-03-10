@@ -9,9 +9,14 @@ const bubbleSort = (arr) => {
 
             if(arr[j] > arr[j+1]){
                 [arr[j],arr[j+1]] = [arr[j+1], arr[j]];
+                // let temp = arr[j];
+                // arr[j]= arr[j+1];
+                // arr[j+1]= temp;
+           }
            }
         }
+        return arr;
+
     }
-    return arr;
-};
+    
 console.log(bubbleSort([ 20, 40,10, 9,2 ]));
