@@ -1,7 +1,3 @@
-# js-DSA-practice notes
-
-##QuickSort
-
 
 1. Base case     → length <= 1? return kar
 2. Pivot         → last element
@@ -18,6 +14,8 @@ Ek function jo arr leta hai. Bas itna yaad rakho shuru mein.
                         // yha sb kuch hoga
                     }
 
+
+
 ## step:2 
 
 if(arr.length<=1){
@@ -32,18 +30,3 @@ Isliye seedha return kar do.
 
 ✏️ Yaad karo: "Ek ya zero = kuch kaam nahi, wapas bhejo"
 arr.length <= 1 → return arr
-
-
-## step:3 
-Pivot — ek element chuno jo reference banega
-
-     let pivot = arr[arr.length - 1];
- 
- Pivot = woh element jiske around baaki sab ko sort karenge.
-
-Hum last element ko pivot banate hain — kyunki easy hai access karna.
-
-arr = [8, 3, 1, 7, 0, 10, 2]
-arr[arr.length - 1] = arr[6] = 2
-✏️ Yaad karo: "Last wala pivot" → arr[arr.length - 1]
-
